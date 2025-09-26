@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.nav{
+  display: flex;
+  gap: 12px;
+}
+.nav a{
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav a.active{
+  outline: 1px solid #999;
+font-weight: 600;
+}
+
+aside ul{
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+aside li{
+  margin-bottom: 6px;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 6px 8px;
+}
+
+.card{
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+}
