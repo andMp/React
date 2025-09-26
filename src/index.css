@@ -53,12 +53,17 @@ input[type="text"]{
   padding: 12px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-
 }
-
 
 .grid{
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 16px;
+}
+
+table tbody tr th:first-child,
+table tbody tr td:first-child {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  width: 150px;
 }

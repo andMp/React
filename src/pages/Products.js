@@ -11,9 +11,9 @@ const PRODUCTS = [
 
 export default function Products(){
 
-const[searcParams, setSerchParams] = useSearchParams();
-const filter = searcParams.get("q") ?? "";
-const list = PRODUCTS.filter(p => p.name.toLowerCase().includes(filter.toLocaleLowerCase));
+const[searchParams, setSerchParams] = useSearchParams();
+const filter = searchParams.get("q") ?? "";
+const list = PRODUCTS.filter(p => p.name.toLowerCase().includes(filter.toLocaleLowerCase()));
 
 
 return(
